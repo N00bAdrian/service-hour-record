@@ -1,0 +1,79 @@
+td{
+  vertical-align:top;
+}
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+    height:100%;
+    vertical-align: top;
+}
+
+.vertical-menu a {
+    background-color: white; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: black; /* Dark grey background on mouse-over */
+    color: white;
+}
+
+.vertical-menu a.active {
+    background-color: black; /* Add a green color to the "active/current" link */
+    color: white;
+    pointer-events: none;
+}
+
+.overall fieldset{
+  width: 300px;
+}
+
+.record{
+  width: 100%;
+}
+
+.record  tr{
+  padding: 50px;
+}
+
+.record input[type="text"]{
+  width: 150px;
+  height: 15px;
+}
+
+.record input[type="date"]{
+  width: 150px;
+  height: 15px;
+}
+
+.record select{
+  width: 150px;
+  height: 15px;
+}
+
+.recent iframe{
+  frameborder:"0";
+  width:100%;
+}
+
+.current div{
+  width:500px;
+}
+
+.export{
+  background-color: black;
+  color: white;
+}
+
+.mvmttable{
+  border: none;
+  width: 500px;
+  height: 500px;
+}
+
+.login_field{
+  width:25%;
+}
