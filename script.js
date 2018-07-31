@@ -130,7 +130,7 @@ $(document).ready(function(){
     window.location = "exportsilver.php";
   });
 
-  $("#exportsilver").click(function(){
+  $("#exportgold").click(function(){
     window.location = "exportgold.php";
   });
 });

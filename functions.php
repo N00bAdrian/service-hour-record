@@ -141,6 +141,8 @@ function exportsilver(){
 }
 
 function exportgold(){
+	global $db;
+	
 	$stmt=$db->prepare("SELECT record.sid, class, no, ename, thours FROM namelist, (SELECT sid, SUM(hours) as thours FROM record GROUP BY sid ORDER BY thours DESC) record WHERE record.sid=namelist.sid AND thours >=200");
 	$stmt->execute();
 	$stmt->bind_result($sid, $class, $no, $ename, $hours);
