@@ -5,7 +5,7 @@
 
   <link rel="stylesheet" type="text/css" href="style.css">
 
-  <title>All Records</title>
+  <title>Total Records</title>
 
   <?php 
   require_once("functions.php");
