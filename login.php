@@ -7,6 +7,8 @@
         header('location: index.php');
     }
     ?>
+    
+    <title>CHPC Login</title>
 </head>
 
 <body>
